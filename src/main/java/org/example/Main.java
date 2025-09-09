@@ -1,5 +1,7 @@
 package org.example;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -22,8 +24,26 @@ public class Main {
             System.out.println("Seleccione una opcion por favor😊");
             opcionSeleccionda= leerTeclado.nextInt();
 
+            //Evaluando caminos segun la opcion del usuario:
+            if (opcionSeleccionda==1){
+                System.out.println("SUMANDO...");
+            } else if (opcionSeleccionda==2) {
+                System.out.println("restando...");
+            } else if (opcionSeleccionda==3) {
+                System.out.println("multiplicando...");
+            } else if (opcionSeleccionda==4){
+                System.out.println("dividiendo...");
+            } else if (opcionSeleccionda==5) {
+            System.out.println("gracias por visitarnos");
+            }else{
+            System.out.println("opcion invalida");
+
+
+
+        }
+
         }
 
 
-        }
+}
     }
